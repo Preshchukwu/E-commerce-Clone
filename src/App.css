@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.parentDiv{
+  width: 100%;
+  height: auto;
+  background-color: #F1F1F2;
+}
+
+.categoryAndProductContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  justify-content: start;
+  align-items: start;
+  padding: 0 7.5rem;
+}
+
+.categoryContainer{
+  width: 25%;
+}
+
+.productContainer{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+}
